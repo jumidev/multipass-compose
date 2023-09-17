@@ -8,3 +8,6 @@ Deploy multipass vms using the same philosophy and ease as docker-compose
 - python3 and pip, then
 - `pip install multipass-compose`
 
+# documentation
+
+# examples
