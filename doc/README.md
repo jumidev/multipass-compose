@@ -33,3 +33,14 @@ Which is launched with
 
 # Reference
 
+|   item        |      cli equivalent      |  description |
+|---------------|:------------------------:|:--------------------------------------|
+| `image:`      | image                    | image to launch. If omitted, then the default Ubuntu LTS will be used. |
+| `name:`       | -n, --name               | optional name of the instance |
+| `cpus:`       | -c, --cpus               | Number of CPUs to allocate. Minimum: 1, default: 1. |
+| `disk:`       | -d, --disk               | Disk space to allocate. Positive integers, in bytes, or with K, M, G suffix. |
+| `memory:`     | -m, --memory             | Amount of memory to allocate. Positive integers, in bytes, or decimals, with K, M, G suffix.  Minimum: 128M, default: 1G. |
+| `timeout:`    | --timeout                | Maximum time, in seconds, to wait for the instance to finish launching  |
+| `cloud-init:` | --cloud-init             | Path or URL to a user-data cloud-init configuration, or '-' for stdin |
+| `mounts:`     | --mount                  | Mount one or more a local directories inside the instance. |
+| `networks:`   | --network                | Add one or more network interfaces to the instance |
