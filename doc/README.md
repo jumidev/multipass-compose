@@ -9,7 +9,10 @@ multipass launch --memory 2G --disk 20G --name wassup-dawg
 
 Becomes
 
+
 ```
+$ cat multipass-compose.yml
+
 instances:
     wassup-dawg:
         image: lts
